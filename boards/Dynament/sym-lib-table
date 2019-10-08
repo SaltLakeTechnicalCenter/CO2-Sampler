@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name DynaMent)(type Legacy)(uri "/home/ptoone/projects/20180307 CO2 Sampler/DynamentPCB/DynamentPCB_0.1/lib/DynaMent.lib")(options "")(descr ""))
+  (lib (name Dynament-rescue)(type Legacy)(uri ${KIPRJMOD}/Dynament-rescue.lib)(options "")(descr ""))
+)

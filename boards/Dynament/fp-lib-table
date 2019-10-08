@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Dynament)(type KiCad)(uri ${KIPRJMOD}/lib/Dynament.pretty)(options "")(descr ""))
+)

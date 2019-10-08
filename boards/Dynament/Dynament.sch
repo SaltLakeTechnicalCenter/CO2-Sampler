@@ -1,0 +1,139 @@
+EESchema Schematic File Version 4
+LIBS:Dynament-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR08
+U 1 1 5C88328C
+P 6850 4900
+F 0 "#PWR08" H 6850 4650 50  0001 C CNN
+F 1 "GND" V 6855 4772 50  0000 R CNN
+F 2 "" H 6850 4900 50  0001 C CNN
+F 3 "" H 6850 4900 50  0001 C CNN
+	1    6850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5C883D92
+P 6850 4700
+F 0 "#FLG0102" H 6850 4775 50  0001 C CNN
+F 1 "PWR_FLAG" V 6850 4828 50  0000 L CNN
+F 2 "" H 6850 4700 50  0001 C CNN
+F 3 "~" H 6850 4700 50  0001 C CNN
+	1    6850 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0102
+U 1 1 5C883DD0
+P 6850 4700
+F 0 "#PWR0102" H 6850 4550 50  0001 C CNN
+F 1 "+3V3" H 6865 4873 50  0000 C CNN
+F 2 "" H 6850 4700 50  0001 C CNN
+F 3 "" H 6850 4700 50  0001 C CNN
+	1    6850 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5C883E1C
+P 6850 4900
+F 0 "#FLG0103" H 6850 4975 50  0001 C CNN
+F 1 "PWR_FLAG" V 6850 5028 50  0000 L CNN
+F 2 "" H 6850 4900 50  0001 C CNN
+F 3 "~" H 6850 4900 50  0001 C CNN
+	1    6850 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J2
+U 1 1 5D150E7D
+P 5200 3000
+F 0 "J2" H 5280 3042 50  0000 L CNN
+F 1 "Conn_01x05" H 5280 2951 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical" H 5200 3000 50  0001 C CNN
+F 3 "~" H 5200 3000 50  0001 C CNN
+	1    5200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5D15103C
+P 5000 2900
+F 0 "#PWR0107" H 5000 2650 50  0001 C CNN
+F 1 "GND" V 5005 2772 50  0000 R CNN
+F 2 "" H 5000 2900 50  0001 C CNN
+F 3 "" H 5000 2900 50  0001 C CNN
+	1    5000 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0108
+U 1 1 5D151048
+P 5000 2800
+F 0 "#PWR0108" H 5000 2650 50  0001 C CNN
+F 1 "+3V3" H 5015 2973 50  0000 C CNN
+F 2 "" H 5000 2800 50  0001 C CNN
+F 3 "" H 5000 2800 50  0001 C CNN
+	1    5000 2800
+	0    -1   -1   0   
+$EndComp
+Text Label 5000 3000 2    50   ~ 0
+A
+Text Label 5000 3200 2    50   ~ 0
+TX
+Text Label 5000 3100 2    50   ~ 0
+RX
+$Comp
+L power:GND #PWR0101
+U 1 1 5D161375
+P 7200 2800
+F 0 "#PWR0101" H 7200 2550 50  0001 C CNN
+F 1 "GND" V 7205 2672 50  0000 R CNN
+F 2 "" H 7200 2800 50  0001 C CNN
+F 3 "" H 7200 2800 50  0001 C CNN
+	1    7200 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 5D16137B
+P 7200 2900
+F 0 "#PWR0103" H 7200 2750 50  0001 C CNN
+F 1 "+3V3" H 7215 3073 50  0000 C CNN
+F 2 "" H 7200 2900 50  0001 C CNN
+F 3 "" H 7200 2900 50  0001 C CNN
+	1    7200 2900
+	0    -1   -1   0   
+$EndComp
+Text Label 7200 3000 2    50   ~ 0
+A
+Text Label 7200 3200 2    50   ~ 0
+TX
+Text Label 7200 3100 2    50   ~ 0
+RX
+$Comp
+L Dynament-rescue:Dynament-DynaMent J1
+U 1 1 5D161237
+P 7400 3000
+F 0 "J1" H 7479 3042 50  0000 L CNN
+F 1 "Dynament" H 7479 2951 50  0000 L CNN
+F 2 "Dynament:Dynament" H 7400 3000 50  0001 C CNN
+F 3 "~" H 7400 3000 50  0001 C CNN
+	1    7400 3000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
